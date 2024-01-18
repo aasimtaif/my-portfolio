@@ -4,7 +4,6 @@ import React, { useState } from "react";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
-
 const navLinks = [
   {
     title: "About",
@@ -28,9 +27,9 @@ const Navbar = () => {
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
           href={"/"}
-          className="text-2xl md:text-5xl text-white font-semibold"
+          className="text-2xl md:text-3xl text-white font-bold tracking-tight hover:text-slate-200"
         >
-          LOGO
+          محمد عاصم 
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
